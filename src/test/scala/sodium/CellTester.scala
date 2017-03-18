@@ -326,7 +326,7 @@ class CellTester {
       new JSE('I', 'i', ese2),
       new JSE('J', 'j', null)
     ).foreach(ese.send(_))
-    
+
     ese2.send('j')
     l.unlisten()
 //    assertEquals(List('A', 'B', 'C', 'd', 'e', 'F', 'G', 'h', 'I','J'), out)
